@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ListFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none*">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:text="Xiaomi" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Apple"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Samsung"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Lenovo"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Nokia"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Motorola"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="HTC"/>
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Sony"/>
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Prestigio"/>
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="1dp"
+                android:text="Micromax"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
